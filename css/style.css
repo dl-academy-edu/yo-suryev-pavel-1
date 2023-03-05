@@ -1,0 +1,227 @@
+ @import url('https://fonts.googleapis.com/css2?family=Crimson+Text:wght@400;700&family=Montserrat:ital,wght@1,700&family=Open+Sans:ital,wght@0,700;1,400&display=swap');
+BODY {
+    margin: 0 auto;
+    padding: 0 auto;
+    max-width: 1080px;
+}
+.cotainer {
+    margin: 0 auto;
+    width: 1400px;
+    padding: 0  32;
+}
+.header {
+    margin-bottom: 145px;
+}
+ul {
+    list-style: none;
+    margin: 0;
+    padding-left: 0;
+}
+.header-list {
+   align-items: center;
+   display: flex;
+   margin-top: 50px;
+    font-family: 'open Sans', sans-serif;
+    font-size: 14px; 
+    align-items: center;
+    justify-content:
+   
+    
+}
+.logo{
+    margin: right 60px; ;
+
+}
+.header-list-right {
+    margin-top: -37px;
+    display: flex;
+    justify-content: flex-end;
+    font-weight: bold;
+    font-family: 'Open Sans',sans-serif;
+    font-size: 14px;     
+}
+.header_list-link {
+    color:rgb(0,0,) ;
+}
+.banner {
+    position: relative;
+    background-color: rgba(238, 228, 219, 1);
+    height: 411px;
+    display: flex;
+    gap: 71px;
+}
+.banner_menu{
+    margin-left: 31px;
+}
+.number_one{
+    padding-top: 17px
+    color: rgba(30,6,6,0.05);
+    font-style: nomal;
+    font-weight: 200;
+    font-size: 60px
+    line-height: 73px;
+    margin-bottom 10px; 
+    font-family: 'motserrat'
+}
+.banner_menu-title{
+    font-family: 'Mantserrat';
+    font-weight: 700px;
+    font-size: 40px;
+    line-height: 110%;
+    width: 107px;
+    margin-top: 99px;
+    margin-bottom: 20px;
+}
+.banner_design {
+    font-family: 'crimson Text'
+    font-style: italic;
+    font-weight: 400px;
+    font-size:20px;
+    line-height: 26px;
+
+}
+.banner_button {
+    font-style: normal;
+    font-weight: 700;
+    line-heigth: 22px
+    font-family: ' Opyn Sans';
+    size: 16 px;
+    color: #fff;
+    background-color: #000;
+    width: max-content;
+    padding: 9px 22px;
+    margin-top: 20px;
+}
+.monstrik_img {
+    position: absolute;
+    margin-left: 495px;
+    margin-top: 150px;
+}
+.banner_foot {
+    text-align: center;
+    background-color: rgba(194,153,116,1);
+    padding: 11px;
+    color: #fff;
+}
+.products-title{
+    margin-top: 90pz
+    font-size: 38px;
+    margin-bottom: 30px;
+    font-family: 'Montserrat'
+    color: #1e0606;
+    margin-bottom: 30px;
+}
+/* КАРТОЧКИ  */
+.products{
+    font-family: 29px;
+    font-size: center;
+}
+.
+.products_cards{
+    font-size: 29px;
+    text-align: center;
+}
+.cards_title_br {
+    width: 129px;
+   }
+.products_cars{
+    min-width: 1043;
+    display: flex;
+    justify-content: space-between;
+    font-family: 'montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 32px;
+    text-align: center;
+
+}
+.cards_title-one {
+    background-image: url(/img/SWEATER.jpg);
+    background: repeat: no-repeat;
+    padding: 120px 55px;
+    width: 280px;
+    color: #fff;
+}
+.cards_title-two {
+    background-image: url(/img/SOCK.png);
+    background-repeat: no-repeat;
+    padding: 120px 55px;
+    width: 280px;
+    color: #fff;
+}
+.cards_titl-four{
+    background-image: url(/img/skait.png);
+    background-repeat: no-repeat;
+    padding: 130px 40px;
+    width: 280px;
+    color: #fff;
+}
+/* стелки */
+.wectors {
+    position: absolute;
+    margin-top: 1px;
+}
+.vector-left {
+    background-color: rgba(112,187,220,0.2);
+    margin-top: 5px;
+}
+.vector-right {
+    background-color: rgba(112,187,220,0.2);
+    padding: 5px;
+}
+.vetors-text{
+    width: 570;
+    font-size: 16px
+    margin: left 75px;
+    font-family 'Open Sans';
+    word-spacing: 3px;
+    margin-botton:  90px
+    font-style: normal;
+    font: weight 400px;
+    line-height 22px;
+}
+/* женшина  */
+.imade_png{
+    width: 480px
+    height: 559 px;
+
+}
+.deliwery {
+    display: flex;
+    gap: 60px;
+}
+.delivery_pucts-title {
+    font-family: 'Crimson Text';
+    font-style: italic;
+    font-weight
+    font-size: 26px;
+    line-height: 44px;
+}
+.deluvery_disk {
+    font-family: 'Open Sana';
+    margin-top: 20px;
+    width: 480px;
+    font-size: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 22px;
+}
+ .dilivery_btn {
+    font-family: 'Open Sans';
+    margin-top: 35px;
+    width: max-content;
+    background-color: #000;
+    color:#fff;
+    font-size: normal;
+    font-weight: 700;
+    font-size: 16px;
+    padding: 9px 22;
+  }
+  .brands {
+    margin-top: 90px;
+    display:flex ;
+    justify-content:space-between ;
+    margin-bottom: 120px;
+  }
+
