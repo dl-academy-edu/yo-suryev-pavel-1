@@ -2,3 +2,72 @@
     font-family: 'Crimson Text', serif;
     font-family: 'Montserrat', sans-serif;  
 }
+.banner_pnd{
+    position: relative;
+    background-color: rgba(238, 228, 219, 1);
+    height: 411px;
+    display: flex;
+    gap: 71px;
+}
+.bannr_menu {
+    margin-left: 31px;
+    }
+
+.header__list {
+    display: flex;
+}
+.header_list-right {
+    display: flex;
+}
+    /* карточки */
+    .products__list {
+        display: flex;
+        margin-left: 0 auto;
+        margin-top: 30px;
+        column-gap: 20px;
+    }
+        
+    .container {
+        display: flex;
+        gap: 20px;
+      }
+      
+
+      
+      
+      .vector-left{
+        background: rgba(112, 187, 220, 0.2);
+        padding: 6px 12px;
+      }
+      .vector-right {
+       background: rgba(112, 187, 220, 0.2);
+       padding: 6px 12px;
+      }
+      .Vector_TEXT{
+         margin-left: 1000px;
+        display: flex ;
+      }
+
+    .Delivery{
+        
+        display:flex;
+        column-gap: 120px;
+        
+    }
+    .Delivery__list{
+        
+        background-color:#70BBDC33;
+        max-width: 11px 180px;
+    }
+    .header__list-link--contact {
+        display: flex;
+        padding: 9px 22px;
+        background: #000000;
+         color: #FFFFFF;
+    }
+    .brends_list {
+        display: flex;
+        margin-left: 0 auto;
+        margin-top: 91px;
+        column-gap: 127px;
+    }
