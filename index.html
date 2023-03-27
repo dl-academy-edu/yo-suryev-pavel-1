@@ -26,7 +26,7 @@
         <ul class="header_list-right">
             <li class="header__list-item"><a class="header__list-link--cont" href="/"><img src="./img/lupa.png"
                         alt="lupa"></a></li>
-            <li class="header__list-item"><a class="header__list-link" href="#">About Us</a></li>
+            <li class="header__list-item"><a class="header__list-link" href="./pages/contact.html">About Us</a></li>
         </ul>
     </header>
     <main class="main">
@@ -44,7 +44,7 @@
                     <h1 class="baner_tite">THE OOH NOOCOLLECTION</h1>
                 </li>
                 <li class="banner__design">Designed in Slovenia</li>
-                <button tupe="button" class="baner__btn">EXPLORE NOW</button>
+                <button tupe="button" class="baner__btn" aria-label="Open popup">EXPLORE NOW</button>
             </ul>
             <img class="monstrik_png" src="./img/monsrik.png" alt="monstrik">
         </div>
@@ -73,21 +73,26 @@
             </div>
         </section>
         <!-- стрелки -->
-        <div class="vector containar">
-            <img class="vector-left" src="./css/icons/Vector.png" alt="">
-            <img class="vector-right" src="./css/icons/Vector (1).png" alt="">
-        </div>
-        <UL class="vector-left">
-        <LI class="Vector_TEXT"><span> finds for the modern home. Curated goods by unique designers around the world
-            from fashion to furniture for kids and adults.</span></LI>
+        <ul class="vector containar">
+            <li> <img class="vector-left" src="./css/icons/Vector.png" alt=""></li>
+            <li> <img class="vector-right" src="./css/icons/Vector (1).png" alt="" class="right"></li>
+            <LI class="Vector_TEXT  containar"><span> finds for the modern home. Curated goods by unique designers
+                    around the world</span>
+                from fashion to furniture for kids and adults.
+            </li>
+
+        </ul>
+        <UL class="vector-list">
+            </LI>
         </UL>
+
         <section class="Delivery containar">
             <img class="image_png" src="./img/image.png" alt="">
             <ul class="Delivery__list">
                 <li class="Delivery__list-item">
                     <h2>Delivery</h2>
                 </li>
-                <li class="Delivery__list-item">Delivery</li>
+                <li class="Delivery__list-item--conta">Delivery</li>
                 <li class="Delivery__list-item">Guarantee</li>
                 <li class="Delivery__list-item">Credit</li>
                 <li class="Delivery__list-item">
@@ -102,7 +107,8 @@
                         happy place for me and i have you and all of the beautiful designers that we work with to thank!
                     </p>
                 </li>
-                <li class="Delivery__list-item"> <button class="header__list-link--contact" type="button">LEARN MORE</button></li>
+                <li class="Delivery__list-item"> <button class="header__list-link--contact" type="button">LEARN
+                        MORE</button></li>
             </ul>
         </section>
         <section class="brands containar">
@@ -113,26 +119,30 @@
                 <li class="brends_list-item"><img src="./img/owox.png" alt=""></li>
             </ul>
         </section>
-        <section class="meps containar">
-            <iframe
-                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2372.5371506304455!2d49.2881445512325!3d53.51246307991602!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x416879a82611632d%3A0xb18d94ffcf91e387!2sDL%20Academy!5e0!3m2!1sru!2sru!4v1678635150269!5m2!1sru!2sru"
-                width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
-                referrerpolicy="no-referrer-when-downgrade"></iframe>
-        </section>
-        <section class="meps contacts">
+        <section class="meps__blok containar">
+            <div class="design_block containar">
+            <li class="design_block-title">Design Life Kids</li>
+            <li class="design_block-about">About Us</li>
+            <li class="design_block-disk">Some days i feel like i've been working on dlk my entire life and
+                there are other days that i am completely shocked that four years have flown by. It's simply
+                magical. 
+            </li>
+           </div>
 
-            <div class="contacts">
-                <ul class="design_block">
-                    <li class="design_block-title">Design Life Kids</li>
-                    <li class="design_block-about">About Us</li>
-                    <li class="design_block-disk">Some days i feel like i've been working on dlk my entire life and
-                        there are other days that i am completely shocked that four years have flown by. It's simply
-                        magical. </li>
-                </ul>
+            <div>
+            
+            <li class="maps__title">Contacts</li>
+            <li class="maps__blok">Some days i feel like i've been working on dlk my entire life and there are other days that
+                i am completely shocked that four years have flown by. It's simply magical.</li>
+           <iframe
+           src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2372.5371506304455!2d49.2881445512325!3d53.51246307991602!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x416879a82611632d%3A0xb18d94ffcf91e387!2sDL%20Academy!5e0!3m2!1sru!2sru!4v1678635150269!5m2!1sru!2sru"
+           width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+           referrerpolicy="no-referrer-when-downgrade" class="meps--carst"></iframe>
+            </div> 
 
 
 
-            </div>
+            
         </section>
     </main>
 

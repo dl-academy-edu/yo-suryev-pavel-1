@@ -30,11 +30,19 @@
     .container {
         display: flex;
         gap: 20px;
+        align-items: center;
       }
       
 
       
-      
+      /* СТЕЛ */
+      .vector-list {
+        display: flex;
+   
+      }
+      .right {
+        margin-right: 30px;
+      }
       .vector-left{
         background: rgba(112, 187, 220, 0.2);
         padding: 6px 12px;
@@ -42,32 +50,154 @@
       .vector-right {
        background: rgba(112, 187, 220, 0.2);
        padding: 6px 12px;
-      }
-      .Vector_TEXT{
-         margin-left: 1000px;
-        display: flex ;
-      }
+       margin-left: 5px;
+     }
+    .vector {
+        display:flex ;
+    }
+   .Vector_TEXT {
+    display: flex;
+    flex-direction: column ;
+    margin-bottom: 40px;
+   }
 
     .Delivery{
-        
         display:flex;
         column-gap: 120px;
-        
-    }
-    .Delivery__list{
-        
-        background-color:#70BBDC33;
-        max-width: 11px 180px;
-    }
+        padding: 11px 180px;
+    }            
+
+  
     .header__list-link--contact {
         display: flex;
         padding: 9px 22px;
         background: #000000;
          color: #FFFFFF;
     }
+    .Delivery__list-item {
+        margin-top: 22px;
+    }
+    .Delivery__list-item--contact {
+                width: 326px;
+        height: 55px;
+        left: 650px;
+        top: 1326px;
+        
+        background: rgba(112, 187, 220, 0.2);
+    }
+    .header__list-link--contact{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        padding: 9px 22px;
+        gap: 10px;
+    }
     .brends_list {
         display: flex;
         margin-left: 0 auto;
         margin-top: 91px;
         column-gap: 127px;
+        /* карта */
     }
+    .meps {
+        width: 483px;
+        height: 196px;
+        left: 1000px;
+        top: 2206px;
+        background: url(.png);
+    }
+    .maps__title {
+        font-family: 'Montserrat';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 38px;
+        line-height: 46px;
+         text-transform: uppercase;
+         color: #1E0606;
+    }
+.design_block-title {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 38px;
+    line-height: 46px;
+    text-transform: uppercase;
+    color: #1E0606;
+}
+.mep_about {
+    display: flex;
+    margin-right: 915px;
+}
+.design_block-about {
+    font-family: 'Crimson Text';
+    font-style: italic;
+    font-weight: 400;
+    font-size: 26px;
+    line-height: 34px;
+    color: #1E0606;
+    width: 483px;
+    height: 66px;
+    left: 740px;
+    top: 2110px;
+}
+.design_block-disk {
+    display: flex;
+    margin-top: 90px;
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 22px;
+    color: #1E0606;
+    width: 483px;
+    height: 67px;
+    left: 140px;
+    top: 2143px;
+}
+.maps__list {
+    display: flex;
+}
+
+.design_block-title {
+   margin-top: 90px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 38px;
+    line-height: 46px;
+    text-transform: uppercase;
+    color: #1E0606;
+    }
+.meps__blok {
+    display:flex ;
+    justify-content: column ;
+}
+.maps__title {
+    margin-top: 95px;
+   margin-right: 440px;
+
+} 
+.maps__blok {
+    margin-top: 20px;
+    width: 543px;
+    height: 209px;
+    left: 710px;
+    top: 2069px;
+
+background: #E1F0F7;
+}  
+.meps--carst {
+    width: 483px;
+    height: 196px;
+    left: 740px;
+    top: 2206px;
+
+background: url();
+}
+.design_block-about {
+    margin-top: 10px;
+}
+.design_block-dis {
+    margin-top: 10px;
+}
+    
